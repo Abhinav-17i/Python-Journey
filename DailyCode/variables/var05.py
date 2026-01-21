@@ -1,0 +1,1 @@
+print("The length of the strng is", len(input("Enter the string\n")) )
