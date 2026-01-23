@@ -1,0 +1,1 @@
+print("nice to meet you " + input("What is your name?\n") + "!" )
