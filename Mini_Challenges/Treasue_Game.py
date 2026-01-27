@@ -21,19 +21,19 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
       ''')
 print("\n")
 print("Welcome to the Treasure Island!\nYou are at a crossroad.Where do you want to go?")
-Direction = input("Type left or right\n")
+Direction = input("Type left or right\n").lower()
 if Direction == "right":
     print("You're arrived near a lake,There's an island in middle of the lake.\nWould you like to wait for a boat or swim across.")
-    Swim = input("Chosse wait or swim\n")
+    Swim = input("Chosse wait or swim\n").lower()
     if Swim == "wait":
         print("You've successfully arrived at the island.\nThere are three doors in front of you.")
-        Door = input("Choose a door to go through.red,blue or yellow.\n")
+        Door = input("Choose a door to go through.red,blue or yellow.\n").lower()
         if Door == "red" or Door == "blue" :
             print("You got eaten by a monster.Game over.")
         else:
             print("Congratulations! You got the treasure.")
     else:
-        print("You got eaten by a Crocodile.Game over")
+        print("You got eaten by a Crocodile.Game over.")
             
 
 else: 
