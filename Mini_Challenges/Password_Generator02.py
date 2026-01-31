@@ -13,15 +13,23 @@ letters_user = int(input("How many letters do you want in your password?\n"))
 
 symbols_user = int(input("How many symbols do you want in your password?\n"))
 
-password = ""
+
+password_list = []
 
 for i in range(1,letters_user + 1) :                          #can be written 0,letters_user
-    password += random.choice(letters) 
+    password_list.append(random.choice(letters)) 
 
 for j in range(1,symbols_user + 1) :
-    password += random.choice(symbols)
+    password_list.append(random.choice(symbols))
 
 for k in range(1,no_user + 1) :
-    password += random.choice(numbers)
+    password_list.append(random.choice(numbers))
+
+random.shuffle(password_list)
+
+password = ""
+
+for i in password_list :
+    password += i
 
 print("Your password is ",password)
