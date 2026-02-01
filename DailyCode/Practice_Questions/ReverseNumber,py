@@ -1,0 +1,20 @@
+# user = int(input("Enter a number: "))
+
+# rev = 0
+
+# for i in range(9):   # number of digits                         giving the wrong output like for 1200  = 21??
+#     digit = user % 10
+#     rev = rev * 10 + digit
+#     user = user // 10
+
+# print(rev)
+
+user = input("Enter a number: ")
+
+rev = ""
+n = len(user)
+
+for i in range(len(user) - 1,-1,-1) :
+    rev += user[i]
+
+print(rev)
