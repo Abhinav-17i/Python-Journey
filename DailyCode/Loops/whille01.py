@@ -8,4 +8,4 @@ while t>0 :
     i += 1
     t -= 1
 
-print("length of thhe list " + str(i))
+print("length of the list " + str(i))
