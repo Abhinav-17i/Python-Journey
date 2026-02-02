@@ -1,5 +1,6 @@
+#Question 8
 print("Welcome to the number guessing game!\n")
-user = int(input("Enter a number from 1 to 10 :\n"))
+user = int(input("Take a guess.Enter a number from 1 to 10 :\n"))
 
 secret = 3
 
