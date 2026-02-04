@@ -1,3 +1,4 @@
+#Question 11
 text = input("Enter text: ")
 
 if text == text[::-1]:
