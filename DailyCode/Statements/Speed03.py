@@ -1,0 +1,15 @@
+speech = """
+Pirates are evil? The Marines are righteous?
+These terms have always changed throughout history!
+Kids who have never seen peace and kids who have never seen war
+have entirely different values!
+Those who stand at the top determine what's wrong and what's right!
+This very place is neutral ground!
+
+Justice will prevail, you say?
+But of course it will!
+Whoever wins this war becomes justice!
+— Donquixote Doflamingo
+"""
+
+print(speech)
