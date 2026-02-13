@@ -1,3 +1,3 @@
-a = input("What is your name").upper()
+a = input("What is your name\n").upper()
 
 print("Hi " + a + "!")
