@@ -8,6 +8,6 @@ dic = {
     }   
 }
 
-print(dic.get("Name1")) #this will nt give error
+print(dic.get("Name1")) #this will not give error
 
 #print(dic["Name1"]) this one give error
