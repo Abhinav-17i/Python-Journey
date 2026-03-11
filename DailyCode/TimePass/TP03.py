@@ -11,6 +11,7 @@ dic = {
 }
 
 insert = {"Name": "Murthy","Age": 25,"Marks" : {"maths":85,"Physics":78,"Chemistry":75}}
+
 dic["student2"] = insert  #what how does that work????
 
 print(dic)
