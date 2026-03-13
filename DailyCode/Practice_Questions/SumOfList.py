@@ -8,5 +8,6 @@ for i in List :
     total += i
 
 print(f"The sum of the list elements is {total}")
+
 # m = sum(List)
 # print(m)
