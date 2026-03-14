@@ -1,7 +1,6 @@
 numbers = [1, 0, 2, 0, 3]
 
 result = []
-
 zeros = 0
 
 for n in numbers:
