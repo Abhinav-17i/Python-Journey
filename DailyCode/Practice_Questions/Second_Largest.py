@@ -1,7 +1,6 @@
 numbers = [4, 8, 1, 9, 6]
 
 largest = numbers[0]
-
 second = numbers[0]
 
 for n in numbers:
