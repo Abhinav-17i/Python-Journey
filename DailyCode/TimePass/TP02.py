@@ -5,4 +5,5 @@ def factorial(n):
     print("Factorial is:", fact)
 
 num = int(input("Enter a number: "))
+
 factorial(num)
