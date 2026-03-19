@@ -6,4 +6,4 @@ def factorial(n):
 
 num = int(input("Enter a number: "))
 
-factorial(num)
+factorial(num) #recur on the next one
