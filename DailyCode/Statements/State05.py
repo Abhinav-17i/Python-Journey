@@ -1,6 +1,9 @@
 print("Welcome to the roller coaster")
+
 Height = int(input("Whats your height in cm?\n"))
+
 Bill = 0
+
 if Height>=120:
     print("You can ride the roller coaster")
     age = int(input("Whats your age?\n"))
