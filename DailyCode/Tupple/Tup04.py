@@ -12,5 +12,6 @@ else:
     print("Mango is not in the tuple")
 
 print("All fruits:")
+
 for fruit in fruits:
     print(fruit)
