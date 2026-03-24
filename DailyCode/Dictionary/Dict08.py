@@ -3,7 +3,6 @@ student = {
     "Alice": 90,
     "Bob": 78
 }
-
 name = input("Enter student name: ")
 
 if name in student:
