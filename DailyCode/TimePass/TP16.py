@@ -1,7 +1,11 @@
 print("Welcome to the pizza deliveries!")
+
 size = input("What size pizza would you like? S,M or L:\n")
+
 pepperoni = input("Would you like peperoni on your pizza Y or N:\n")
+
 cheese =  input("Do you want extra cheese on your pizza? Y OR N:\n")
+
 Bill = 0
 
 if size=="L" :
