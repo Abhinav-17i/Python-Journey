@@ -20,6 +20,7 @@ if pepperoni == "Y":
         Bill += 2
     else:
         Bill += 3    
+        
 if cheese == "Y":
     Bill += 1
 
