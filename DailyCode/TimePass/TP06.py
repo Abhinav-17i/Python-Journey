@@ -9,6 +9,7 @@ for i in range (0,len(list)) :
         print(f"The entered number found at index {i}")
         found = True
         break
+
 if not found :
     print("Not Found")
     
