@@ -1,5 +1,3 @@
-# Bitwise Encryption using XOR
-
 message = input("Enter a message: ")
 key = 7  # secret key
 
@@ -9,7 +7,7 @@ for ch in message:
 
 print("\nEncrypted message:", encrypted)
 
-# Decryption
+
 decrypted = ""
 for ch in encrypted:
     decrypted += chr(ord(ch) ^ key)
