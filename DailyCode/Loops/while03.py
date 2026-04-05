@@ -1,4 +1,5 @@
 #Multiplication table
+
 n = int(input("Enter the number : "))
 
 mul = 0
