@@ -15,7 +15,7 @@
 #     turnright()
 #     move()
 #     turn_left()
-    
+
 # while at_goal()!= True :
 #     if right_is_clear():
 #         turnright()
