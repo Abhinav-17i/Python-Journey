@@ -1,5 +1,7 @@
 password = "python123"
+
 guess = ""
+
 while guess != password:
     guess = input("Enter the secret password: ")
     
