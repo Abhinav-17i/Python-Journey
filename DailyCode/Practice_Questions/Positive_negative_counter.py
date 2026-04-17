@@ -1,6 +1,5 @@
 #counter
 List = [2,-3,0,5,-1,0,7]
-
 pos = 0
 negative = 0
 zero = 0
