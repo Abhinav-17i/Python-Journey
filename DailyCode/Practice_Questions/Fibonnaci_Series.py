@@ -1,6 +1,8 @@
 #Question 7
 user =  int(input("Enter the fibonacci series length: "))
+
 count = 0
+
 a = 0
 b = 1
 
