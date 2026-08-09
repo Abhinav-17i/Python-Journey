@@ -1,2 +1,2 @@
 word = "Hi"
-print(word * 3)
+print(" ".join([word] * 3))
